@@ -14,7 +14,7 @@
 
 支持 RunningHub AI 应用和 ComfyUI 本地、云端工作流。
 
-> 原 **AI-CanvasPro**（**AI Canvas Pro / AI CanvasPro**）现已更名为 **SHUO Canvas**，仍是同一个项目。
+> 原 **AI-CanvasPro**，现名 **SHUO Canvas**。
 
 [![作者：阿硕](https://img.shields.io/badge/作者-阿硕-pink?style=flat-square)](https://space.bilibili.com/1876480181)
 [![Bilibili](https://img.shields.io/badge/Bilibili-主页-00A1D6?style=flat-square\&logo=bilibili)](https://space.bilibili.com/1876480181)
@@ -146,9 +146,11 @@ https://github.com/user-attachments/assets/a8fc0652-8a0b-4582-991b-fca988f9b5a7
 
 - **AI 生成**：文字、图片、视频和音频。
 - **影视创作**：剧本、分镜、人物替换、语音和 3D 场景。
+- **复刻工作室**：导入参考视频，拆解人物、素材和镜头，完成复刻创作。
 - **素材处理**：裁剪、拼图、抠图、擦除、高清、抽帧和对口型。
 - **工作流接入**：RunningHub AI 应用、ComfyUI 本地和云端工作流。
 - **画布操作**：拖拽、连线、多选、编组、对齐和撤销重做。
+- **任务中心**：查看生成进度和任务记录，在结果仍有效且可读取时找回已生成的内容。
 
 ### 💾 项目管理
 
@@ -169,23 +171,25 @@ https://github.com/user-attachments/assets/a8fc0652-8a0b-4582-991b-fca988f9b5a7
    - [GitHub 最新版](https://github.com/ashuoAI/SHUO-Canvas/releases/latest)
    - [GitHub 全部版本](https://github.com/ashuoAI/SHUO-Canvas/releases)
    - [百度网盘](https://pan.baidu.com/s/1igcxiCGpAd_CFoj9Am2s-g)，提取码：`8848`
+   - [夸克网盘](https://pan.quark.cn/s/ceef73baabf2)
 2. **选择安装包**
    - Windows：下载 `SHUO-Canvas-windows-*.exe`
    - macOS M 系列：下载 `SHUO-Canvas-Mac-arm64-*.dmg` 或 `.zip`
 3. **开始使用**
-   - 安装后打开软件，在 **设置 → API 输入** 中填写 API Key。
-
-> 从 v0.7.0 开始，安装包与安装后的软件统一使用 **SHUO Canvas** 名称。
+   - **使用官方模型**：在 **设置 → 账号与订阅** 登录官方账号，使用账号积分生成，无需配置 API Key。
+   - **使用自配 API**：在 **设置 → API 输入** 中填写对应平台的 API Key 后保存。
 
 当前版本：[v0.8.10](https://github.com/ashuoAI/SHUO-Canvas/releases/tag/v0.8.10) · [更新说明](./release_notes.txt)
 
-## ⚙️ 配置 API Key
+## ⚙️ 模型使用与 API 配置
 
-> **收费说明：** SHUO Canvas 只收软件激活费用，不按模型调用次数收费。模型费用由你使用的 API 平台收取。
+> **收费说明：** 软件会员权益与模型生成费用分开。使用官方模型会消耗账号积分；使用自配 API 时，模型费用由对应 API 平台收取。
 >
 > 生成内容能否商用，请查看对应 API 平台的规定。
 
-打开 **设置 → API 输入**，填写 API Key 后保存。
+**官方模型**：在 **设置 → 账号与订阅** 登录，查看积分余额并按需充值；生成时选择官方模型即可，无需配置 API Key。
+
+**自配 API**：打开 **设置 → API 输入**，填写对应平台的 API Key 后保存。以下为部分平台的获取方式：
 
 | 平台 | 获取方式 |
 | --- | --- |
@@ -193,7 +197,6 @@ https://github.com/user-attachments/assets/a8fc0652-8a0b-4582-991b-fca988f9b5a7
 | RunningHub 国内 | [获取 Key](https://www.runninghub.cn/?inviteCode=rh-v1312) |
 | RunningHub 国际 | [获取 Key](https://www.runninghub.ai/?inviteCode=rh-v1312) |
 | APImart | [获取 Key](https://apimart.ai/zh/register?aff=ashuoai) |
-| 派欧云 PPIO（计划下架） | [获取 Key](https://ppio.com/user/register?invited_by=SF4VL3) |
 | GRSAI | [获取 Key](https://grsai.com/zh/dashboard/user-info) |
 | 火山引擎 | [控制台](https://console.volcengine.com/ark/) · [文档](https://www.volcengine.com/docs/82379/1541594) |
 | 通用 OpenAI 接口 | 在设置中填写接口地址和 Key |
