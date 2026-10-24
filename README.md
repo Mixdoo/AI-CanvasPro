@@ -25,17 +25,29 @@
 
 ## 🖼️ 产品展示
 
-<p align="center">
-  <img src="images/readme/showcase/story-workspace.webp" alt="SHUO Canvas 剧本工作室" width="100%">
-  <br>
-  <sub><strong>剧本工作室</strong> · 从资产设定、分镜生成到成片预览</sub>
-</p>
+### 画布模式
 
-<p align="center">
-  <img src="images/readme/showcase/character-replacement-workspace.webp" alt="SHUO Canvas 人物替换工作室" width="100%">
-  <br>
-  <sub><strong>人物替换工作室</strong> · 跨镜头管理角色并完成图像、视频替换</sub>
-</p>
+把文字、图片、视频和音频连接起来，在一张画布里完成创作。
+
+https://github.com/user-attachments/assets/e711d4b6-ca68-494e-bcfb-7f69c84bfa84
+
+### 剧本工作室
+
+从资产设定、分镜生成到成片预览。
+
+https://github.com/user-attachments/assets/037e77d6-0285-4a61-b80c-97d258150b28
+
+### 人物替换工作室
+
+跨镜头管理角色并完成图像、视频替换。
+
+https://github.com/user-attachments/assets/297fe609-fb80-4ab3-9882-01cbbcecf536
+
+### 复刻工作室
+
+导入参考视频，拆解人物与镜头，完成复刻创作。
+
+https://github.com/user-attachments/assets/a8fc0652-8a0b-4582-991b-fca988f9b5a7
 
 <table>
   <tr>
